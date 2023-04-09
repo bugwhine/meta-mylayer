@@ -1,0 +1,2 @@
+part / --source rootfs --ondisk sda --fstype=squashfs --align 1024
+part /media/rfs/rw --ondisk sda --fstype=ext4 --label rwoverlay --size 100M
